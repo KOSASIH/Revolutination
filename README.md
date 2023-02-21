@@ -1,5 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/revolutination/badge/?version=latest)](https://revolutination.readthedocs.io/en/latest/?badge=latest)
-
+[![Greetings](https://github.com/KOSASIH/Revolutination/actions/workflows/greetings.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/greetings.yml)
 [![DeepSource](https://deepsource.io/gh/KOSASIH/Revolutination.svg/?label=active+issues&show_trend=true&token=dZqKraY77oGxWTx2kIkpI0B4)](https://deepsource.io/gh/KOSASIH/Revolutination/?ref=repository-badge)
 [![Jekyll site CI](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml)
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
