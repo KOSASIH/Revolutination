@@ -1,3 +1,4 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/Revolutination/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/Revolutination/tree/main)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KOSASIH/Revolutination/HEAD?labpath=README.md)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/KOSASIH/Revolutination)
 [![Documentation Status](https://readthedocs.org/projects/revolutination/badge/?version=latest)](https://revolutination.readthedocs.io/en/latest/?badge=latest)
