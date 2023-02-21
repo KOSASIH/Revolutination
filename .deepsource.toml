@@ -1,0 +1,125 @@
+version = 1
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "terraform"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "scala"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "meteor",
+    "angular",
+    "angularjs",
+    "ember"
+  ]
+
+[[analyzers]]
+name = "docker"
+
+  [analyzers.meta]
+  dockerfile_paths = ["3000"]
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/KOSASIH/Revolutination"
+
+[[analyzers]]
+name = "php"
+
+  [analyzers.meta]
+  bootstrap_files = ["3000"]
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "17"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "ansible"
+
+[[transformers]]
+name = "php-cs-fixer"
+
+[[transformers]]
+name = "black"
+
+[[transformers]]
+name = "yapf"
+
+[[transformers]]
+name = "isort"
+
+[[transformers]]
+name = "autopep8"
+
+[[transformers]]
+name = "clang-format"
+
+[[transformers]]
+name = "dotnet-format"
+
+[[transformers]]
+name = "gofumpt"
+
+[[transformers]]
+name = "gofmt"
+
+[[transformers]]
+name = "rubocop"
+
+[[transformers]]
+name = "standardrb"
+
+[[transformers]]
+name = "rustfmt"
+
+[[transformers]]
+name = "scalafmt"
+
+[[transformers]]
+name = "prettier"
+
+[[transformers]]
+name = "standardjs"
