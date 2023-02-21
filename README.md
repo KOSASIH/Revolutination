@@ -1,5 +1,5 @@
 [![Jekyll site CI](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml)
-
+[![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 
 # Revolutination
 NCT Marketplace
