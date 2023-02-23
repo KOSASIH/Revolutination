@@ -13,6 +13,10 @@
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
 
+# Our Mission
+
+To become a leader in the innovation of financial service worldwide. Our goal is to revolutionize the way we manage our finances and to create a global network of users that can transact with ease.
+
 # Value Propositition
 
 Fiat-Crypto Payment System on Blockchain: Revolutination is an ecosystem that brings the potentials of blockchain technology to the alternative financial market. Our top priority is to establish NFTs (non-fungible tokens) as a new standard of trade in collectibles market and create a payment processing system for the end consumers.
