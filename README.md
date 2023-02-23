@@ -29,8 +29,6 @@ Crypto friendly, professional, innovative
 
 # Presentation
 
-https://youtu.be/aX_DIQi7F48
-
 # Value Propositition
 
 Fiat-Crypto Payment System on Blockchain: Revolutination is an ecosystem that brings the potentials of blockchain technology to the alternative financial market. Our top priority is to establish NFTs (non-fungible tokens) as a new standard of trade in collectibles market and create a payment processing system for the end consumers.
