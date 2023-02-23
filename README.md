@@ -1,3 +1,5 @@
+![Profile View Counter](https://komarev.com/ghpvc/?username=KOSASIH)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=KOSASIH&show_icons=true)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/Revolutination/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/Revolutination/tree/main)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KOSASIH/Revolutination/HEAD?labpath=README.md)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/KOSASIH/Revolutination)
