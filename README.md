@@ -17,6 +17,10 @@ Revolutination is a decentralized NFTs marketplace built upon the Multichain Acc
 
 To become a leader in the innovation of financial service worldwide. Our goal is to revolutionize the way we manage our finances and to create a global network of users that can transact with ease.
 
+# Our Voice
+
+Crypto friendly, professional, innovative
+
 # Value Propositition
 
 Fiat-Crypto Payment System on Blockchain: Revolutination is an ecosystem that brings the potentials of blockchain technology to the alternative financial market. Our top priority is to establish NFTs (non-fungible tokens) as a new standard of trade in collectibles market and create a payment processing system for the end consumers.
