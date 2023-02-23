@@ -12,6 +12,8 @@
 [![StackHawk](https://github.com/KOSASIH/Revolutination/actions/workflows/stackhawk.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/stackhawk.yml)
 [![njsscan sarif](https://github.com/KOSASIH/Revolutination/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/njsscan.yml)
 
+[![Ryo-ma's github trophy](https://github-profile-trophy.vercel.app/?username=KOSASIH&row=1)](https://github.com/KOSASIH/github-profile-trophy)
+
 # Revolutination
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
