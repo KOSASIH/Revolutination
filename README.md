@@ -10,7 +10,7 @@
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
 
-Join us at [Discord](https://discord.gg/4ndeMBx3) 
+Join us at [Discord](https://discord.gg/4ndeMBx3)
 
 # Revolutination
 
