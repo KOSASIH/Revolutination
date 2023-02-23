@@ -10,6 +10,7 @@
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
 
+
 # Revolutination
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
