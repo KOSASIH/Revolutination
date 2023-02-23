@@ -8,6 +8,7 @@
 [![DeepSource](https://deepsource.io/gh/KOSASIH/Revolutination.svg/?label=active+issues&show_trend=true&token=dZqKraY77oGxWTx2kIkpI0B4)](https://deepsource.io/gh/KOSASIH/Revolutination/?ref=repository-badge)
 [![Jekyll site CI](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml)
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
 
 # Revolutination
 
