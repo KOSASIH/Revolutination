@@ -9,7 +9,7 @@
 [![Jekyll site CI](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-docker.yml)
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
-[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-gh-pages.yml)
+[![StackHawk](https://github.com/KOSASIH/Revolutination/actions/workflows/stackhawk.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/stackhawk.yml)
 
 # Revolutination
 
