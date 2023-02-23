@@ -29,7 +29,7 @@ Crypto friendly, professional, innovative
 
 # Presentation
 
-(https://youtu.be/aX_DIQi7F48) 
+https://youtu.be/aX_DIQi7F48
 
 # Value Propositition
 
