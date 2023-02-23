@@ -10,7 +10,6 @@
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
 
-
 # Revolutination
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
@@ -63,7 +62,6 @@ Revolutination is a smart, simple, yet powerful product that can unlock the bene
 
 # Community
 
-Join us at [Discord](https://discord.gg/4ndeMBx3) 
-
+Join us at [Discord](https://discord.gg/4ndeMBx3)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Revolutination">Revolutination</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/KOSASIH">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
