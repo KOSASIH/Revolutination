@@ -10,7 +10,7 @@
 [![CI](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/blank.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1f27c14b-5e35-4343-aabf-d2d367689b22/deploy-status)](https://app.netlify.com/sites/revolutination/deploys)
 
-Join us at [Discord](https://discord.gg/4ndeMBx3)
+
 
 # Revolutination
 
@@ -61,5 +61,10 @@ Revolutination is a smart, simple, yet powerful product that can unlock the bene
 11. NFTs Marketplace is a new decentralized blockchain-based digital asset exchange that provides a safe, secure and transparent environment for the creation, distribution and trading of non-fungible tokens (NFTs).
 
 12. he NFTs Marketplace is powered by multichain access and future Crypto currency payment system. It is intended to solve the problems of current centralized exchanges. The NFTs Marketplace will be a fully decentralized exchange with no central authority or registration required. We aim to develop an ecosystem that allows for a frictionless experience for both the end user and the developer.
+
+# Community
+
+Join us at [Discord](https://discord.gg/4ndeMBx3) 
+
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Revolutination">Revolutination</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/KOSASIH">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
