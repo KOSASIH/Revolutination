@@ -13,6 +13,7 @@
 [![njsscan sarif](https://github.com/KOSASIH/Revolutination/actions/workflows/njsscan.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/njsscan.yml)
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/jekyll-gh-pages.yml)
 [![Mark stale issues and pull requests](https://github.com/KOSASIH/Revolutination/actions/workflows/stale.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/stale.yml)
+[![Dependency Review](https://github.com/KOSASIH/Revolutination/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/KOSASIH/Revolutination/actions/workflows/dependency-review.yml)
 
 [![Ryo-ma's github trophy](https://github-profile-trophy.vercel.app/?username=KOSASIH&row=1)](https://github.com/KOSASIH/github-profile-trophy)
 
