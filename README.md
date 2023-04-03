@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/kosasih/revolutination/badge)](https://www.codefactor.io/repository/github/kosasih/revolutination)
 ![Profile View Counter](https://komarev.com/ghpvc/?username=KOSASIH)
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=KOSASIH&show_icons=true)
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/KOSASIH/Revolutination/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/KOSASIH/Revolutination/tree/main)
