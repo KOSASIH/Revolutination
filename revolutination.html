@@ -1,85 +1,26 @@
-// Import required libraries
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-
-// Create an instance of Express app
-const app = express();
-
-// Enable CORS
-app.use(cors());
-
-// Parse incoming request data as JSON
-app.use(bodyParser.json());
-
-// Set up database connection
-const mongoose = require('mongoose');
+// Import required libraries const express = require('express'); const
+bodyParser = require('body-parser'); const cors = require('cors'); // Create an
+instance of Express app const app = express(); // Enable CORS app.use(cors());
+// Parse incoming request data as JSON app.use(bodyParser.json()); // Set up
+database connection const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/marketplace', { useNewUrlParser: true });
-
-// Define schema for products
-const productSchema = new mongoose.Schema({
-  name: String,
-  price: Number,
-  description: String,
-  imageUrl: String
-});
-
-// Define model for products
-const Product = mongoose.model('Product', productSchema);
-
-// Define routes
-app.get('/products', async (req, res) => {
-  try {
-    const products = await Product.find();
-    res.send(products);
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-});
-
-app.get('/products/:id', async (req, res) => {
-  try {
-    const product = await Product.findById(req.params.id);
-    res.send(product);
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-});
-
-app.post('/products', async (req, res) => {
-  try {
-    const product = new Product(req.body);
-    await product.save();
-    res.send(product);
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-});
-
-app.put('/products/:id', async (req, res) => {
-  try {
-    const product = await Product.findById(req.params.id);
-    product.name = req.body.name;
-    product.price = req.body.price;
-    product.description = req.body.description;
-    product.imageUrl = req.body.imageUrl;
-    await product.save();
-    res.send(product);
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-});
-
-app.delete('/products/:id', async (req, res) => {
-  try {
-    const product = await Product.findByIdAndDelete(req.params.id);
-    res.send(product);
-  } catch (error) {
-    res.status(500).send({ message: error.message });
-  }
-});
-
-// Start the server
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
-});
+// Define schema for products const productSchema = new mongoose.Schema({ name:
+String, price: Number, description: String, imageUrl: String }); // Define model
+for products const Product = mongoose.model('Product', productSchema); // Define
+routes app.get('/products', async (req, res) => { try { const products = await
+Product.find(); res.send(products); } catch (error) { res.status(500).send({
+message: error.message }); } }); app.get('/products/:id', async (req, res) => {
+try { const product = await Product.findById(req.params.id); res.send(product);
+} catch (error) { res.status(500).send({ message: error.message }); } });
+app.post('/products', async (req, res) => { try { const product = new
+Product(req.body); await product.save(); res.send(product); } catch (error) {
+res.status(500).send({ message: error.message }); } }); app.put('/products/:id',
+async (req, res) => { try { const product = await
+Product.findById(req.params.id); product.name = req.body.name; product.price =
+req.body.price; product.description = req.body.description; product.imageUrl =
+req.body.imageUrl; await product.save(); res.send(product); } catch (error) {
+res.status(500).send({ message: error.message }); } });
+app.delete('/products/:id', async (req, res) => { try { const product = await
+Product.findByIdAndDelete(req.params.id); res.send(product); } catch (error) {
+res.status(500).send({ message: error.message }); } }); // Start the server
+app.listen(3000, () => { console.log('Server started on port 3000'); });
