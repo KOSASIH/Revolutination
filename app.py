@@ -3,6 +3,7 @@ import streamlit as st
 
 # Define a Product class to represent a product
 class Product:
+
     def __init__(self, name, price, description, image):
         self.name = name
         self.price = price
