@@ -1,7 +1,7 @@
 Revolutination - Smart Web App with Multiple Chain Access
 ========================================================
 
-![Revolutination Logo](https://example.com/revolutination-logo.png)
+![Revolutination Logo](https://www.canva.com/design/DAF6V4imgmE/Wp38UZk6fmrRIrzypa-FAA/edit?utm_content=DAF6V4imgmE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Introduction
 ------------
