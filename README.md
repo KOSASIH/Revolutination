@@ -85,6 +85,8 @@ Join us at [Discord](https://discord.gg/4ndeMBx3)
 
 ## Tutorials: 
 
+# Recommendation
+
 To implement a recommendation system using AI algorithms, we can use collaborative filtering, which analyzes user behavior and preferences to generate personalized recommendations. Here's a sample code that demonstrates how to provide service recommendations to users based on their preferences and past interactions:
 
 ```python
@@ -148,7 +150,7 @@ Finally, the code generates recommendations for a sample user (user ID 1) and pr
 
 Note: This code assumes that the necessary libraries (pandas, scikit-learn) are installed and the input data files (`user_data.csv` and `service_data.csv`) are available in the same directory as the script.
 
-# Recomendation
+### Chatbot
 
 ```python
 import spacy
@@ -223,6 +225,55 @@ Chatbot:  Based on your preferences, I recommend trying our new product X.
 User:  Goodbye
 Chatbot:  Thank you for using our smart web app. Have a great day!
 ```
+
+### Anomaly Detection
+
+```python
+import pandas as pd
+from sklearn.ensemble import IsolationForest
+
+# Load historical user data
+data = pd.read_csv('user_data.csv')
+
+# Train anomaly detection model
+model = IsolationForest(contamination=0.01)
+model.fit(data)
+
+# Real-time monitoring
+def detect_anomaly(user_data):
+    # Predict anomaly score
+    anomaly_score = model.decision_function(user_data)
+    
+    # Set anomaly threshold
+    threshold = -0.5
+    
+    # Check if anomaly score exceeds threshold
+    if anomaly_score < threshold:
+        # Send alert message
+        alert_message = "Anomaly detected! Please review your account activity."
+        return alert_message
+    else:
+        return None
+
+# Sample user data
+user_data = pd.DataFrame({'transaction_amount': [1000, 200, 3000, 500]})
+
+# Detect anomaly
+alert = detect_anomaly(user_data)
+
+if alert:
+    print(alert)
+else:
+    print("No anomaly detected.")
+```
+
+This code snippet demonstrates an example of an anomaly detection system using the Isolation Forest algorithm. It loads historical user data from a CSV file, trains an Isolation Forest model on the data, and sets up a real-time monitoring function to detect anomalies in user transactions.
+
+The `detect_anomaly` function takes user data as input and predicts the anomaly score using the trained model. It then compares the anomaly score to a predefined threshold and generates an alert message if the score exceeds the threshold.
+
+In the sample code, a sample user data with transaction amounts is provided, and the `detect_anomaly` function is called to check for anomalies. If an anomaly is detected, an alert message is printed. Otherwise, a message stating "No anomaly detected" is printed.
+
+Note: This code is a simplified example for demonstration purposes. In a real-world scenario, you would need to adapt the code to your specific data and requirements.
 
 # Roadmap
 
