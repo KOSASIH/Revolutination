@@ -35,7 +35,7 @@ Crypto friendly, professional, innovative
 
 Check our [Presentation](https://youtu.be/aX_DIQi7F48)
 
-# Contributor Guide 
+# Contributor Guide
 
 **Revolutination Project Contributor Guide**
 
@@ -46,8 +46,8 @@ Welcome to the Revolutination community! We appreciate your interest in contribu
 1. [Getting Started](#getting-started)
 2. [Code of Conduct](#code-of-conduct)
 3. [How to Contribute](#how-to-contribute)
-    - [Reporting Issues](#reporting-issues)
-    - [Submitting Pull Requests](#submitting-pull-requests)
+   - [Reporting Issues](#reporting-issues)
+   - [Submitting Pull Requests](#submitting-pull-requests)
 4. [Development Setup](#development-setup)
 5. [Coding Standards](#coding-standards)
 6. [Documentation](#documentation)
@@ -159,9 +159,9 @@ Revolutination is a smart, simple, yet powerful product that can unlock the bene
 
 Join us at [Discord](https://discord.gg/4ndeMBx3)
 
-# Revolutination AI Agent 
+# Revolutination AI Agent
 
-## Tutorials: 
+## Tutorials:
 
 # Recommendation
 
@@ -190,22 +190,22 @@ user_similarity = cosine_similarity(user_service_matrix)
 def generate_recommendations(user_id, top_n=5):
     # Get index of the user
     user_index = user_service_matrix.index.get_loc(user_id)
-    
+
     # Calculate similarity scores with other users
     similarity_scores = user_similarity[user_index]
-    
+
     # Get top similar users
     top_similar_users = similarity_scores.argsort()[:-top_n-1:-1]
-    
+
     # Get services rated by similar users
     services_rated_by_similar_users = user_service_matrix.iloc[top_similar_users].dropna(axis=1)
-    
+
     # Calculate average rating for each service
     service_avg_ratings = services_rated_by_similar_users.mean()
-    
+
     # Sort services based on average ratings
     recommended_services = service_avg_ratings.sort_values(ascending=False)[:top_n]
-    
+
     return recommended_services
 
 # Generate recommendations for a user
@@ -264,7 +264,7 @@ for pattern in patterns:
 def chatbot(text):
     doc = nlp(text)
     matches = matcher(doc)
-    
+
     for match_id, start, end in matches:
         if nlp.vocab.strings[match_id] == "GREETING":
             return responses["greeting"]
@@ -272,7 +272,7 @@ def chatbot(text):
             return responses["recommendation"]
         elif nlp.vocab.strings[match_id] == "GOODBYE":
             return responses["goodbye"]
-    
+
     return "I'm sorry, I didn't understand. Can you please rephrase your query?"
 
 # Sample conversation
@@ -293,6 +293,7 @@ print("Chatbot: ", chatbot_response)
 ```
 
 Output:
+
 ```
 User:  Hello
 Chatbot:  Hello! How can I assist you today?
@@ -321,10 +322,10 @@ model.fit(data)
 def detect_anomaly(user_data):
     # Predict anomaly score
     anomaly_score = model.decision_function(user_data)
-    
+
     # Set anomaly threshold
     threshold = -0.5
-    
+
     # Check if anomaly score exceeds threshold
     if anomaly_score < threshold:
         # Send alert message
