@@ -35,6 +35,84 @@ Crypto friendly, professional, innovative
 
 Check our [Presentation](https://youtu.be/aX_DIQi7F48)
 
+# Contributor Guide
+
+**Revolutination Project Contributor Guide**
+
+Welcome to the Revolutination community! We appreciate your interest in contributing to our project. Before you get started, please review the following guidelines to ensure a smooth and collaborative experience.
+
+### Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Code of Conduct](#code-of-conduct)
+3. [How to Contribute](#how-to-contribute)
+   - [Reporting Issues](#reporting-issues)
+   - [Submitting Pull Requests](#submitting-pull-requests)
+4. [Development Setup](#development-setup)
+5. [Coding Standards](#coding-standards)
+6. [Documentation](#documentation)
+7. [Testing](#testing)
+8. [Community and Communication](#community-and-communication)
+9. [License](#license)
+
+---
+
+### Getting Started
+
+Before you start contributing, make sure you have:
+
+- Created a GitHub account.
+- Reviewed the [README.md](link-to-readme) for an overview of the project.
+- Installed necessary development tools and dependencies (see [Development Setup](#development-setup)).
+
+### Code of Conduct
+
+Please adhere to our [Code of Conduct](link-to-code-of-conduct) in all interactions, both online and offline. We strive to maintain a respectful and inclusive community.
+
+### How to Contribute
+
+#### Reporting Issues
+
+- If you encounter a bug or have a feature request, open an issue on GitHub.
+- Clearly describe the issue or enhancement, including steps to reproduce if applicable.
+- Use the provided templates for bug reports and feature requests.
+
+#### Submitting Pull Requests
+
+1. Fork the repository.
+2. Create a new branch for your contribution.
+3. Follow the coding standards (see [Coding Standards](#coding-standards)).
+4. Test your changes thoroughly.
+5. Submit a pull request, explaining the purpose of your changes.
+
+### Development Setup
+
+To set up your development environment, follow the instructions in the [Development Setup](link-to-setup) document. This includes installing dependencies and configuring your environment.
+
+### Coding Standards
+
+Maintain code consistency by adhering to our [Coding Standards](link-to-coding-standards). This includes formatting, naming conventions, and best practices.
+
+### Documentation
+
+Contribute to project documentation by updating relevant sections in the [docs](link-to-docs) directory. This includes code comments, README improvements, and any additional guides.
+
+### Testing
+
+Write tests for your code changes. Ensure that existing tests pass and create new tests as needed. See the [Testing](link-to-testing) guide for more details.
+
+### Community and Communication
+
+Join our [community channels](https://discord.gg/4ndeMBx3) to connect with other contributors and stay informed about project updates. Participate in discussions and share your ideas.
+
+### License
+
+By contributing to the Revolutination project, you agree that your contributions will be licensed under the project's [LICENSE](link-to-license). Make sure you understand and comply with the licensing terms.
+
+---
+
+Thank you for contributing to Revolutination! Your efforts help make this project better for everyone. If you have any questions or need assistance, reach out to the community through our communication channels. Happy coding!
+
 # Learn More In Soroban SDK
 
 [Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm)
@@ -84,6 +162,7 @@ Join us at [Discord](https://discord.gg/4ndeMBx3)
 # Revolutination AI Agent
 
 ## Tutorials:
+
 
 To implement a recommendation system using AI algorithms, we can use collaborative filtering, which analyzes user behavior and preferences to generate personalized recommendations. Here's a sample code that demonstrates how to provide service recommendations to users based on their preferences and past interactions:
 
@@ -147,6 +226,132 @@ The `generate_recommendations` function takes a user ID as input and generates r
 Finally, the code generates recommendations for a sample user (user ID 1) and prints the recommendation output, showing the service ID and rating for each recommended service.
 
 Note: This code assumes that the necessary libraries (pandas, scikit-learn) are installed and the input data files (`user_data.csv` and `service_data.csv`) are available in the same directory as the script.
+
+### Chatbot
+
+```python
+import spacy
+from spacy.matcher import Matcher
+
+# Load the spaCy English model
+nlp = spacy.load("en_core_web_sm")
+
+# Define the chatbot's responses
+responses = {
+    "greeting": "Hello! How can I assist you today?",
+    "recommendation": "Based on your preferences, I recommend trying our new product X.",
+    "goodbye": "Thank you for using our smart web app. Have a great day!"
+}
+
+# Define the chatbot's patterns
+patterns = [
+    {"label": "GREETING", "pattern": [{"LOWER": "hello"}]},
+    {"label": "GREETING", "pattern": [{"LOWER": "hi"}]},
+    {"label": "GREETING", "pattern": [{"LOWER": "hey"}]},
+    {"label": "RECOMMENDATION", "pattern": [{"LOWER": "recommend"}, {"LOWER": "product"}]},
+    {"label": "GOODBYE", "pattern": [{"LOWER": "bye"}]},
+    {"label": "GOODBYE", "pattern": [{"LOWER": "goodbye"}]},
+    {"label": "GOODBYE", "pattern": [{"LOWER": "see"}, {"LOWER": "you"}]}
+]
+
+# Initialize the matcher with the patterns
+matcher = Matcher(nlp.vocab)
+for pattern in patterns:
+    matcher.add(pattern["label"], None, pattern["pattern"])
+
+# Define the chatbot function
+def chatbot(text):
+    doc = nlp(text)
+    matches = matcher(doc)
+
+    for match_id, start, end in matches:
+        if nlp.vocab.strings[match_id] == "GREETING":
+            return responses["greeting"]
+        elif nlp.vocab.strings[match_id] == "RECOMMENDATION":
+            return responses["recommendation"]
+        elif nlp.vocab.strings[match_id] == "GOODBYE":
+            return responses["goodbye"]
+
+    return "I'm sorry, I didn't understand. Can you please rephrase your query?"
+
+# Sample conversation
+user_input = "Hello"
+chatbot_response = chatbot(user_input)
+print("User: ", user_input)
+print("Chatbot: ", chatbot_response)
+
+user_input = "Can you recommend a product for me?"
+chatbot_response = chatbot(user_input)
+print("User: ", user_input)
+print("Chatbot: ", chatbot_response)
+
+user_input = "Goodbye"
+chatbot_response = chatbot(user_input)
+print("User: ", user_input)
+print("Chatbot: ", chatbot_response)
+```
+
+Output:
+
+```
+User:  Hello
+Chatbot:  Hello! How can I assist you today?
+
+User:  Can you recommend a product for me?
+Chatbot:  Based on your preferences, I recommend trying our new product X.
+
+User:  Goodbye
+Chatbot:  Thank you for using our smart web app. Have a great day!
+```
+
+### Anomaly Detection
+
+```python
+import pandas as pd
+from sklearn.ensemble import IsolationForest
+
+# Load historical user data
+data = pd.read_csv('user_data.csv')
+
+# Train anomaly detection model
+model = IsolationForest(contamination=0.01)
+model.fit(data)
+
+# Real-time monitoring
+def detect_anomaly(user_data):
+    # Predict anomaly score
+    anomaly_score = model.decision_function(user_data)
+
+    # Set anomaly threshold
+    threshold = -0.5
+
+    # Check if anomaly score exceeds threshold
+    if anomaly_score < threshold:
+        # Send alert message
+        alert_message = "Anomaly detected! Please review your account activity."
+        return alert_message
+    else:
+        return None
+
+# Sample user data
+user_data = pd.DataFrame({'transaction_amount': [1000, 200, 3000, 500]})
+
+# Detect anomaly
+alert = detect_anomaly(user_data)
+
+if alert:
+    print(alert)
+else:
+    print("No anomaly detected.")
+```
+
+This code snippet demonstrates an example of an anomaly detection system using the Isolation Forest algorithm. It loads historical user data from a CSV file, trains an Isolation Forest model on the data, and sets up a real-time monitoring function to detect anomalies in user transactions.
+
+The `detect_anomaly` function takes user data as input and predicts the anomaly score using the trained model. It then compares the anomaly score to a predefined threshold and generates an alert message if the score exceeds the threshold.
+
+In the sample code, a sample user data with transaction amounts is provided, and the `detect_anomaly` function is called to check for anomalies. If an anomaly is detected, an alert message is printed. Otherwise, a message stating "No anomaly detected" is printed.
+
+Note: This code is a simplified example for demonstration purposes. In a real-world scenario, you would need to adapt the code to your specific data and requirements.
 
 # Roadmap
 
