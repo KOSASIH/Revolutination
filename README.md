@@ -35,9 +35,9 @@ Crypto friendly, professional, innovative
 
 Check our [Presentation](https://youtu.be/aX_DIQi7F48)
 
-# Learn More In Soroban SDK 
+# Learn More In Soroban SDK
 
-[Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm) 
+[Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm)
 
 # Value Propositition
 
