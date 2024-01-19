@@ -43,7 +43,7 @@ Welcome to the Revolutination community! We appreciate your interest in contribu
 ### Table of Contents
 
 1. [Getting Started](#getting-started)
-2. [Code of Conduct](#code-of-conduct)
+2. [Code of Conduct](CODE_OF_CONDUCT.md)
 3. [How to Contribute](#how-to-contribute)
    - [Reporting Issues](#reporting-issues)
    - [Submitting Pull Requests](#submitting-pull-requests)
