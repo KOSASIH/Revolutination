@@ -35,6 +35,84 @@ Crypto friendly, professional, innovative
 
 Check our [Presentation](https://youtu.be/aX_DIQi7F48)
 
+# Contributor Guide
+
+**Revolutination Project Contributor Guide**
+
+Welcome to the Revolutination community! We appreciate your interest in contributing to our project. Before you get started, please review the following guidelines to ensure a smooth and collaborative experience.
+
+### Table of Contents
+
+1. [Getting Started](#getting-started)
+2. [Code of Conduct](#code-of-conduct)
+3. [How to Contribute](#how-to-contribute)
+   - [Reporting Issues](#reporting-issues)
+   - [Submitting Pull Requests](#submitting-pull-requests)
+4. [Development Setup](#development-setup)
+5. [Coding Standards](#coding-standards)
+6. [Documentation](#documentation)
+7. [Testing](#testing)
+8. [Community and Communication](#community-and-communication)
+9. [License](#license)
+
+---
+
+### Getting Started
+
+Before you start contributing, make sure you have:
+
+- Created a GitHub account.
+- Reviewed the [README.md](link-to-readme) for an overview of the project.
+- Installed necessary development tools and dependencies (see [Development Setup](#development-setup)).
+
+### Code of Conduct
+
+Please adhere to our [Code of Conduct](link-to-code-of-conduct) in all interactions, both online and offline. We strive to maintain a respectful and inclusive community.
+
+### How to Contribute
+
+#### Reporting Issues
+
+- If you encounter a bug or have a feature request, open an issue on GitHub.
+- Clearly describe the issue or enhancement, including steps to reproduce if applicable.
+- Use the provided templates for bug reports and feature requests.
+
+#### Submitting Pull Requests
+
+1. Fork the repository.
+2. Create a new branch for your contribution.
+3. Follow the coding standards (see [Coding Standards](#coding-standards)).
+4. Test your changes thoroughly.
+5. Submit a pull request, explaining the purpose of your changes.
+
+### Development Setup
+
+To set up your development environment, follow the instructions in the [Development Setup](link-to-setup) document. This includes installing dependencies and configuring your environment.
+
+### Coding Standards
+
+Maintain code consistency by adhering to our [Coding Standards](link-to-coding-standards). This includes formatting, naming conventions, and best practices.
+
+### Documentation
+
+Contribute to project documentation by updating relevant sections in the [docs](link-to-docs) directory. This includes code comments, README improvements, and any additional guides.
+
+### Testing
+
+Write tests for your code changes. Ensure that existing tests pass and create new tests as needed. See the [Testing](link-to-testing) guide for more details.
+
+### Community and Communication
+
+Join our [community channels](https://discord.gg/4ndeMBx3) to connect with other contributors and stay informed about project updates. Participate in discussions and share your ideas.
+
+### License
+
+By contributing to the Revolutination project, you agree that your contributions will be licensed under the project's [LICENSE](link-to-license). Make sure you understand and comply with the licensing terms.
+
+---
+
+Thank you for contributing to Revolutination! Your efforts help make this project better for everyone. If you have any questions or need assistance, reach out to the community through our communication channels. Happy coding!
+
 # Learn More In Soroban SDK
 
 [Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm)
@@ -85,7 +163,6 @@ Join us at [Discord](https://discord.gg/4ndeMBx3)
 
 ## Tutorials:
 
-# Recommendation
 
 To implement a recommendation system using AI algorithms, we can use collaborative filtering, which analyzes user behavior and preferences to generate personalized recommendations. Here's a sample code that demonstrates how to provide service recommendations to users based on their preferences and past interactions:
 
