@@ -103,7 +103,7 @@ Write tests for your code changes. Ensure that existing tests pass and create ne
 
 ### Community and Communication
 
-Join our [community channels](link-to-community-channels) to connect with other contributors and stay informed about project updates. Participate in discussions and share your ideas.
+Join our [community channels](https://discord.gg/4ndeMBx3) to connect with other contributors and stay informed about project updates. Participate in discussions and share your ideas.
 
 ### License
 
