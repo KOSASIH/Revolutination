@@ -81,9 +81,9 @@ Revolutination is a smart, simple, yet powerful product that can unlock the bene
 
 Join us at [Discord](https://discord.gg/4ndeMBx3)
 
-# Revolutination AI Agent 
+# Revolutination AI Agent
 
-## Tutorials: 
+## Tutorials:
 
 To implement a recommendation system using AI algorithms, we can use collaborative filtering, which analyzes user behavior and preferences to generate personalized recommendations. Here's a sample code that demonstrates how to provide service recommendations to users based on their preferences and past interactions:
 
@@ -110,22 +110,22 @@ user_similarity = cosine_similarity(user_service_matrix)
 def generate_recommendations(user_id, top_n=5):
     # Get index of the user
     user_index = user_service_matrix.index.get_loc(user_id)
-    
+
     # Calculate similarity scores with other users
     similarity_scores = user_similarity[user_index]
-    
+
     # Get top similar users
     top_similar_users = similarity_scores.argsort()[:-top_n-1:-1]
-    
+
     # Get services rated by similar users
     services_rated_by_similar_users = user_service_matrix.iloc[top_similar_users].dropna(axis=1)
-    
+
     # Calculate average rating for each service
     service_avg_ratings = services_rated_by_similar_users.mean()
-    
+
     # Sort services based on average ratings
     recommended_services = service_avg_ratings.sort_values(ascending=False)[:top_n]
-    
+
     return recommended_services
 
 # Generate recommendations for a user
