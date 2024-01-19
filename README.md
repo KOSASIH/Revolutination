@@ -163,8 +163,6 @@ Join us at [Discord](https://discord.gg/4ndeMBx3)
 
 ## Tutorials:
 
-# Recommendation
-
 To implement a recommendation system using AI algorithms, we can use collaborative filtering, which analyzes user behavior and preferences to generate personalized recommendations. Here's a sample code that demonstrates how to provide service recommendations to users based on their preferences and past interactions:
 
 ```python
