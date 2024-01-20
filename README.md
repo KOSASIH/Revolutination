@@ -22,9 +22,58 @@
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
 
-# Our Mission
+# Contents: 
 
-To become a leader in the innovation of financial service worldwide. Our goal is to revolutionize the way we manage our finances and to create a global network of users that can transact with ease.
+- [Vision And Mission](#vision-and-mission)
+- [Our Voice](#our-voice)
+- [Our Technologies](#our-technologies)
+- [Problems To Solve](#problems-to-solve)
+- [Presentation](#presentation)
+- [Contributor Guide](#contributor-guide)
+- [Learn More In Soroban SDK](#learn-more-in-soroban-sdk)
+- [Value Proposition](#value-proposition)
+- [Points](#points)
+- [Revolutination AI Agent](#revolutination-ai-agent)
+- [Roadmap](#roadmap)
+- [Aknowledgement](#aknowledgement) 
+
+# Vision And Mission 
+
+**Vision Statement:**
+"To empower individuals globally with seamless, inclusive, and innovative financial solutions, fostering financial independence and unlocking opportunities for a better future."
+
+**Mission Statement:**
+1. **Financial Inclusion:**
+   - "To break down barriers and provide access to financial services for everyone, irrespective of geographical location or economic status."
+
+2. **Innovation and Technology:**
+   - "To lead the way in financial technology innovation, leveraging emerging technologies like blockchain, AI, and IoT to create a cutting-edge and user-centric smart web app."
+
+3. **Security and Transparency:**
+   - "To prioritize the security and privacy of our users by implementing state-of-the-art blockchain technology, ensuring transparent and secure financial transactions."
+
+4. **User Empowerment:**
+   - "To empower users with personalized financial insights, education, and tools, enabling them to make informed decisions and achieve their financial goals."
+
+5. **Global Connectivity:**
+   - "To facilitate seamless cross-border transactions, connecting individuals and businesses globally through an efficient and decentralized financial ecosystem."
+
+6. **Decentralization and Trust:**
+   - "To champion decentralization, reducing reliance on central authorities, and fostering a trustless financial environment that enhances reliability and user confidence."
+
+7. **Environmental Responsibility:**
+   - "To explore and promote sustainable practices within the blockchain space, contributing to eco-friendly solutions and minimizing the environmental impact of our technology."
+
+8. **Community Collaboration:**
+   - "To build a vibrant and inclusive community where ideas flourish, collaboration thrives, and collective contributions drive the continuous improvement of the Revolutination project."
+
+9. **Adaptability and Continuous Improvement:**
+   - "To stay at the forefront of technological advancements, continuously adapt to user needs, and provide regular updates, ensuring the Revolutination app remains at the pinnacle of financial innovation."
+
+10. **Educational Outreach:**
+    - "To actively engage in educational initiatives, providing resources and information to enhance financial literacy and empower users to navigate the complexities of the financial landscape."
+
+These vision and mission statements reflect the commitment of Revolutination to revolutionize the financial landscape by combining innovation, inclusivity, security, and sustainability, ultimately empowering individuals and communities worldwide.
 
 # Our Voice
 
@@ -109,6 +158,52 @@ The Revolutination project employs a diverse set of cutting-edge technologies to
     - Ensures high availability and performance through cloud-based solutions.
 
 The Revolutination project thrives on the integration of these technologies to create a forward-thinking, user-centric, and innovative smart web app with a focus on financial empowerment and technological advancement.
+
+# Problems To Solve 
+
+The Revolutination project aims to address several challenges and provide solutions in the financial technology (FinTech) space. Here are some key problems the project seeks to solve:
+
+1. **Limited Access to Financial Services:**
+   - Problem: Many individuals globally face limited access to traditional financial services.
+   - Solution: By leveraging blockchain and decentralized finance (DeFi) technologies, Revolutination aims to provide inclusive and accessible financial services to a broader audience.
+
+2. **Security Concerns in Transactions:**
+   - Problem: Traditional financial transactions may face security vulnerabilities and privacy concerns.
+   - Solution: Implementing blockchain technology and advanced security measures, Revolutination enhances the security of transactions, ensuring transparency and reducing fraud risks.
+
+3. **Complexity in Cross-Border Transactions:**
+   - Problem: Cross-border transactions can be time-consuming and complex due to multiple intermediaries and varying regulatory requirements.
+   - Solution: The project facilitates seamless cross-border transactions by utilizing blockchain's efficiency, reducing costs, and providing a transparent and decentralized platform.
+
+4. **Lack of Financial Empowerment:**
+   - Problem: Some individuals lack the tools and knowledge to manage their finances effectively.
+   - Solution: Through AI-driven analytics and personalized financial insights, Revolutination empowers users with the information needed to make informed financial decisions, promoting financial literacy.
+
+5. **Centralized Control and Trust Issues:**
+   - Problem: Traditional financial systems often rely on centralized entities, leading to trust concerns and potential points of failure.
+   - Solution: By leveraging decentralized technologies like blockchain and smart contracts, Revolutination minimizes reliance on central authorities, enhancing trust and reliability.
+
+6. **Inefficiencies in Traditional Banking:**
+   - Problem: Traditional banking systems may involve inefficiencies, delays, and manual processes.
+   - Solution: The project adopts technologies such as smart contracts and automation to streamline processes, reducing operational inefficiencies and providing users with a faster and more efficient financial experience.
+
+7. **Limited Integration with Emerging Technologies:**
+   - Problem: Many financial platforms struggle to integrate emerging technologies like AI, IoT, and blockchain effectively.
+   - Solution: Revolutination embraces a multi-technology approach, integrating AI for personalized experiences, IoT for enhanced data connectivity, and blockchain for secure and transparent transactions.
+
+8. **Fragmentation in Blockchain Ecosystems:**
+   - Problem: The blockchain space can be fragmented with various networks and standards.
+   - Solution: Revolutination addresses this by providing multiple-chain access, fostering interoperability, and adapting to emerging blockchain technologies for a more cohesive ecosystem.
+
+9. **Barriers to Innovation:**
+   - Problem: Innovation in the financial sector is often hindered by rigid structures and slow adaptation to new technologies.
+   - Solution: The project creates a dynamic environment by embracing open-source development, collaboration, and continuous improvement, fostering a culture of innovation.
+
+10. **Environmental Impact of Blockchain:**
+    - Problem: Some blockchain networks contribute to environmental concerns due to energy-intensive consensus mechanisms.
+    - Solution: Revolutination explores sustainable practices within the blockchain space, aiming to minimize its environmental footprint and contribute to eco-friendly blockchain solutions.
+
+Through addressing these challenges, Revolutination aims to revolutionize financial services, making them more accessible, secure, and user-friendly while promoting financial inclusion and technological innovation.
 
 # Presentation
 
@@ -196,7 +291,7 @@ Thank you for contributing to Revolutination! Your efforts help make this projec
 
 [Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm)
 
-# Value Propositition
+# Value Proposition
 
 Fiat-Crypto Payment System on Blockchain: Revolutination is an ecosystem that brings the potentials of blockchain technology to the alternative financial market. Our top priority is to establish NFTs (non-fungible tokens) as a new standard of trade in collectibles market and create a payment processing system for the end consumers.
 
@@ -649,5 +744,9 @@ Note: This code is a simplified example for demonstration purposes. In a real-wo
     - Communicate clearly about the app's commitment to user data protection.
 
 Remember, this roadmap should be adaptable to changes in technology, market dynamics, and user feedback. Regularly revisit and update the roadmap to stay ahead of the curve.
+
+# Aknowledgement 
+
+[Aknowledgement](aknowledgement.md) 
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Revolutination">Revolutination</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/KOSASIH">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
