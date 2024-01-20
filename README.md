@@ -29,7 +29,9 @@ Revolutination is a decentralized NFTs marketplace built upon the Multichain Acc
 - [Our Technologies](#our-technologies)
 - [Problems To Solve](#problems-to-solve)
 - [Presentation](#presentation)
-- [Contributor Guide](#contributor-guide) 
+- [Contributor Guide](#contributor-guide)
+- [Learn More In Soroban SDK](#learn-more-in-soroban-sdk)
+- [Value Proposition](#value-proposition) 
 
 # Vision And Mission 
 
@@ -271,7 +273,7 @@ Thank you for contributing to Revolutination! Your efforts help make this projec
 
 [Revolutination Portal](https://okashi.dev/playground/bdiygixnbhirkeqhecthkgauujxm)
 
-# Value Propositition
+# Value Proposition
 
 Fiat-Crypto Payment System on Blockchain: Revolutination is an ecosystem that brings the potentials of blockchain technology to the alternative financial market. Our top priority is to establish NFTs (non-fungible tokens) as a new standard of trade in collectibles market and create a payment processing system for the end consumers.
 
