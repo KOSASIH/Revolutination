@@ -22,16 +22,6 @@
 
 Revolutination is a decentralized NFTs marketplace built upon the Multichain Access Protocol and future crypto-currency payment system. Revolutination is structured as a DAO rather than a traditional company. The primary goal of Revolutination is to become self-sustaining through donations from its users, who will have voting rights in governance issues.
 
-# Contents:
-
-- [Vision And Mission](#vision-and-mission)
-- [Our Voice](#our-voice)
-- [Our Technologies](#our-technologies)
-- [Problems To Solve](#problems-to-solve)
-- [Presentation](#presentation)
-- [Contributor Guide](#contributor-guide)
-- [Learn More In Soroban SDK](#learn-more-in-soroban-sdk)
-- [Value Proposition](#value-proposition)
 
 # Vision And Mission
 
@@ -759,5 +749,9 @@ Note: This code is a simplified example for demonstration purposes. In a real-wo
     - Communicate clearly about the app's commitment to user data protection.
 
 Remember, this roadmap should be adaptable to changes in technology, market dynamics, and user feedback. Regularly revisit and update the roadmap to stay ahead of the curve.
+
+# Aknowledgement
+
+[Aknowledgement](aknowledgement.md)
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/Revolutination">Revolutination</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/KOSASIH">KOSASIH</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
