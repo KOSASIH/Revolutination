@@ -24,7 +24,12 @@ Revolutination is a decentralized NFTs marketplace built upon the Multichain Acc
 
 # Contents: 
 
-- [Vision And Mission](#vision-and-mission) 
+- [Vision And Mission](#vision-and-mission)
+- [Our Voice](#our-voice)
+- [Our Technologies](#our-technologies)
+- [Problems To Solve](#problems-to-solve)
+- [Presentation](#presentation)
+- [Contributor Guide](#contributor-guide) 
 
 # Vision And Mission 
 
