@@ -31,7 +31,10 @@ Revolutination is a decentralized NFTs marketplace built upon the Multichain Acc
 - [Presentation](#presentation)
 - [Contributor Guide](#contributor-guide)
 - [Learn More In Soroban SDK](#learn-more-in-soroban-sdk)
-- [Value Proposition](#value-proposition) 
+- [Value Proposition](#value-proposition)
+- [Points](#points)
+- [Revolutination AI Agent](#revolutination-ai-agent)
+- [Roadmap](#roadmap) 
 
 # Vision And Mission 
 
